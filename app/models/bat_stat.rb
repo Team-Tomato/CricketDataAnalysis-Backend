@@ -1,0 +1,2 @@
+class BatStat < ApplicationRecord
+end

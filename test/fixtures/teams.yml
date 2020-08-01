@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country: MyString
+  nick_name: MyString
+  captain: MyString
+  coach: MyString
+  region: MyString
+
+two:
+  country: MyString
+  nick_name: MyString
+  captain: MyString
+  coach: MyString
+  region: MyString

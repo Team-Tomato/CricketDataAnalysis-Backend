@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  balls_bowled: 1
+  extras: MyString
+  wickets: MyString
+  ones: 1
+  twos: 1
+  threes: 1
+  fours: 1
+  sixes: 1
+  economy: 9.99
+  dots: 1
+
+two:
+  balls_bowled: 1
+  extras: MyString
+  wickets: MyString
+  ones: 1
+  twos: 1
+  threes: 1
+  fours: 1
+  sixes: 1
+  economy: 9.99
+  dots: 1

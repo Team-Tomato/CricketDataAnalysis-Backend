@@ -1,0 +1,2 @@
+class RareStat < ApplicationRecord
+end

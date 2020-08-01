@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  toss_won_by: MyString
+  choosed_to: MyString
+  t1_score: MyString
+  t2_score: MyString
+  result: MyString
+  won_by: MyString
+  mom: MyString
+  scores_by_over: MyText
+  fow: MyText
+
+two:
+  toss_won_by: MyString
+  choosed_to: MyString
+  t1_score: MyString
+  t2_score: MyString
+  result: MyString
+  won_by: MyString
+  mom: MyString
+  scores_by_over: MyText
+  fow: MyText

@@ -1,0 +1,2 @@
+class OtherStat < ApplicationRecord
+end
