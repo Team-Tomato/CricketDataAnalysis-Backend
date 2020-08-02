@@ -15,5 +15,12 @@ module CricketDataAnalysisBackend
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    config.api_only = true
+
+    config.middleware.use ActionDispatch::Cookies
+    config.middleware.use ActionDispatch::Flash
+	config.middleware.use Rack::MethodOverride
+	config.middleware.use ActionDispatch::Session::CookieStore, {:key=>"_cricket_data_analysis_backend_session"}
   end
 end
