@@ -25,7 +25,7 @@ RailsAdmin.config do |config|
 
   config.authorize_with do
     authenticate_or_request_with_http_basic('Login required') do |name, password|
-      (name == ENV['RAILS_ADMIN'] && password == ENV['RAILS_ADMIN_PASSWORD'])
+      (name == 'admin' && password == 'admin')
     end
   end
 

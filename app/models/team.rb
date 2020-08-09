@@ -1,6 +1,6 @@
 class Team < ApplicationRecord
 
-	validates :country, :nick_name, :captain, :coach, :region, presence: true
+  validates :country, :nick_name, :captain, :coach, :region, presence: true
 
   has_many :team_matches, inverse_of: :team
   has_many :matches, through: :team_matches
